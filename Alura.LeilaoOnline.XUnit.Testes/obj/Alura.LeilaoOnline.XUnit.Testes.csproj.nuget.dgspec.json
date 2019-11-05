@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\flavia.almeida\\source\\repos\\Alura.LeilaoOnline\\Alura.LeilaoOnline.XUnit.Testes\\Alura.LeilaoOnline.XUnit.Testes.csproj": {}
+    "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.XUnit.Testes\\Alura.LeilaoOnline.XUnit.Testes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\flavia.almeida\\source\\repos\\Alura.LeilaoOnline\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj": {
+    "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\flavia.almeida\\source\\repos\\Alura.LeilaoOnline\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj",
+        "projectUniqueName": "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj",
         "projectName": "Alura.LeilaoOnline.Core",
-        "projectPath": "C:\\Users\\flavia.almeida\\source\\repos\\Alura.LeilaoOnline\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj",
+        "projectPath": "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj",
         "packagesPath": "C:\\Users\\flavia.almeida\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\flavia.almeida\\source\\repos\\Alura.LeilaoOnline\\Alura.LeilaoOnline.Core\\obj\\",
+        "outputPath": "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\flavia.almeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,31 +59,31 @@
         }
       }
     },
-    "C:\\Users\\flavia.almeida\\source\\repos\\Alura.LeilaoOnline\\Alura.LeilaoOnline.XUnit.Testes\\Alura.LeilaoOnline.XUnit.Testes.csproj": {
+    "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.XUnit.Testes\\Alura.LeilaoOnline.XUnit.Testes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\flavia.almeida\\source\\repos\\Alura.LeilaoOnline\\Alura.LeilaoOnline.XUnit.Testes\\Alura.LeilaoOnline.XUnit.Testes.csproj",
+        "projectUniqueName": "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.XUnit.Testes\\Alura.LeilaoOnline.XUnit.Testes.csproj",
         "projectName": "Alura.LeilaoOnline.XUnit.Testes",
-        "projectPath": "C:\\Users\\flavia.almeida\\source\\repos\\Alura.LeilaoOnline\\Alura.LeilaoOnline.XUnit.Testes\\Alura.LeilaoOnline.XUnit.Testes.csproj",
+        "projectPath": "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.XUnit.Testes\\Alura.LeilaoOnline.XUnit.Testes.csproj",
         "packagesPath": "C:\\Users\\flavia.almeida\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\flavia.almeida\\source\\repos\\Alura.LeilaoOnline\\Alura.LeilaoOnline.XUnit.Testes\\obj\\",
+        "outputPath": "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.XUnit.Testes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\flavia.almeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\flavia.almeida\\source\\repos\\Alura.LeilaoOnline\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj": {
-                "projectPath": "C:\\Users\\flavia.almeida\\source\\repos\\Alura.LeilaoOnline\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj"
+              "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj": {
+                "projectPath": "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj"
               }
             }
           }
@@ -95,19 +95,27 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp2.1": {
           "dependencies": {
-            "Cake": {
-              "target": "Package",
-              "version": "[0.35.0, )"
-            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.2.0, )"
             },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[1.0.1, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.7.0, )"
             },
             "xunit": {
               "target": "Package",
@@ -128,11 +136,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }

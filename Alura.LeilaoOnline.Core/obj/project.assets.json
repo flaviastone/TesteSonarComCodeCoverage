@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flavia.almeida\\source\\repos\\Alura.LeilaoOnline\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj",
+      "projectUniqueName": "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj",
       "projectName": "Alura.LeilaoOnline.Core",
-      "projectPath": "C:\\Users\\flavia.almeida\\source\\repos\\Alura.LeilaoOnline\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj",
+      "projectPath": "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj",
       "packagesPath": "C:\\Users\\flavia.almeida\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flavia.almeida\\source\\repos\\Alura.LeilaoOnline\\Alura.LeilaoOnline.Core\\obj\\",
+      "outputPath": "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\flavia.almeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
