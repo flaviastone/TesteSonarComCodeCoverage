@@ -1,0 +1,288 @@
+{
+  "Alura.LeilaoOnline.Core.dll": {
+    "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.Core\\Interessada.cs": {
+      "Alura.LeilaoOnline.Core.Interessada": {
+        "System.String Alura.LeilaoOnline.Core.Interessada::get_Nome()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "Alura.LeilaoOnline.Core.Leilao Alura.LeilaoOnline.Core.Interessada::get_Leilao()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Void Alura.LeilaoOnline.Core.Interessada::.ctor(System.String,Alura.LeilaoOnline.Core.Leilao)": {
+          "Lines": {
+            "8": 13,
+            "9": 13,
+            "10": 13,
+            "11": 13,
+            "12": 13
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.Core\\Lance.cs": {
+      "Alura.LeilaoOnline.Core.Lance": {
+        "Alura.LeilaoOnline.Core.Interessada Alura.LeilaoOnline.Core.Lance::get_Cliente()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Double Alura.LeilaoOnline.Core.Lance::get_Valor()": {
+          "Lines": {
+            "8": 28
+          },
+          "Branches": []
+        },
+        "System.Void Alura.LeilaoOnline.Core.Lance::.ctor(Alura.LeilaoOnline.Core.Interessada,System.Double)": {
+          "Lines": {
+            "10": 29,
+            "11": 29,
+            "12": 29,
+            "13": 1,
+            "14": 1,
+            "18": 28,
+            "19": 28,
+            "20": 28
+          },
+          "Branches": [
+            {
+              "Line": 12,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 12,
+              "Offset": 22,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 28
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.Core\\Leilao.cs": {
+      "Alura.LeilaoOnline.Core.Leilao": {
+        "System.Collections.Generic.IEnumerable`1<Alura.LeilaoOnline.Core.Lance> Alura.LeilaoOnline.Core.Leilao::get_Lances()": {
+          "Lines": {
+            "20": 11
+          },
+          "Branches": []
+        },
+        "System.String Alura.LeilaoOnline.Core.Leilao::get_Peca()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "Alura.LeilaoOnline.Core.Lance Alura.LeilaoOnline.Core.Leilao::get_Ganhador()": {
+          "Lines": {
+            "22": 13
+          },
+          "Branches": []
+        },
+        "Alura.LeilaoOnline.Core.EstadoLeilao Alura.LeilaoOnline.Core.Leilao::get_Estado()": {
+          "Lines": {
+            "23": 55
+          },
+          "Branches": []
+        },
+        "System.Boolean Alura.LeilaoOnline.Core.Leilao::NovoLanceAceito(Alura.LeilaoOnline.Core.Interessada,System.Double)": {
+          "Lines": {
+            "36": 21,
+            "37": 21,
+            "38": 21,
+            "39": 21
+          },
+          "Branches": [
+            {
+              "Line": 37,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 21
+            },
+            {
+              "Line": 37,
+              "Offset": 8,
+              "EndOffset": 24,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Alura.LeilaoOnline.Core.Leilao::RecebeLance(Alura.LeilaoOnline.Core.Interessada,System.Double)": {
+          "Lines": {
+            "43": 21,
+            "44": 21,
+            "45": 20,
+            "46": 20,
+            "47": 20,
+            "48": 20,
+            "50": 21
+          },
+          "Branches": [
+            {
+              "Line": 44,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 20
+            },
+            {
+              "Line": 44,
+              "Offset": 11,
+              "EndOffset": 41,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 21
+            }
+          ]
+        },
+        "System.Void Alura.LeilaoOnline.Core.Leilao::IniciaPregao()": {
+          "Lines": {
+            "53": 8,
+            "54": 8,
+            "55": 8
+          },
+          "Branches": []
+        },
+        "System.Void Alura.LeilaoOnline.Core.Leilao::TerminaPregao()": {
+          "Lines": {
+            "58": 9,
+            "59": 9,
+            "60": 1,
+            "61": 1,
+            "64": 8,
+            "65": 8,
+            "67": 8
+          },
+          "Branches": [
+            {
+              "Line": 59,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 59,
+              "Offset": 15,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 8
+            }
+          ]
+        },
+        "System.Void Alura.LeilaoOnline.Core.Leilao::.ctor(System.String,Alura.LeilaoOnline.Core.IModalidadeAvaliacao)": {
+          "Lines": {
+            "26": 9,
+            "27": 9,
+            "28": 9,
+            "29": 9,
+            "30": 9,
+            "31": 9,
+            "32": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.Core\\MaiorOferta.cs": {
+      "Alura.LeilaoOnline.Core.MaiorOferta": {
+        "Alura.LeilaoOnline.Core.Lance Alura.LeilaoOnline.Core.MaiorOferta::Avalia(Alura.LeilaoOnline.Core.Leilao)": {
+          "Lines": {
+            "8": 7,
+            "9": 7,
+            "10": 7,
+            "11": 24,
+            "12": 7,
+            "13": 7
+          },
+          "Branches": [
+            {
+              "Line": 9,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 9,
+              "Offset": 33,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 7
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\flavia.almeida\\source\\repos\\LeilaoOnlineCoverage\\Alura.LeilaoOnline.Core\\OfertaSuperiorMaisProxima.cs": {
+      "Alura.LeilaoOnline.Core.OfertaSuperiorMaisProxima": {
+        "System.Double Alura.LeilaoOnline.Core.OfertaSuperiorMaisProxima::get_ValorDestino()": {
+          "Lines": {
+            "7": 4
+          },
+          "Branches": []
+        },
+        "Alura.LeilaoOnline.Core.Lance Alura.LeilaoOnline.Core.OfertaSuperiorMaisProxima::Avalia(Alura.LeilaoOnline.Core.Leilao)": {
+          "Lines": {
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 5,
+            "18": 3,
+            "19": 1,
+            "20": 1
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 15,
+              "Offset": 50,
+              "EndOffset": 75,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Alura.LeilaoOnline.Core.OfertaSuperiorMaisProxima::.ctor(System.Double)": {
+          "Lines": {
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

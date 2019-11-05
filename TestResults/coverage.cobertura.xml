@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.9401999999999999" branch-rate="0.9166" version="1.9" timestamp="1572912433" lines-covered="63" lines-valid="67" branches-covered="11" branches-valid="12">
+  <sources>
+    <source></source>
+  </sources>
+  <packages>
+    <package name="Alura.LeilaoOnline.Core" line-rate="0.9401999999999999" branch-rate="0.9166" complexity="25">
+      <classes>
+        <class name="Alura.LeilaoOnline.Core.Interessada" filename="C:\Users\flavia.almeida\source\repos\LeilaoOnlineCoverage\Alura.LeilaoOnline.Core\Interessada.cs" line-rate="0.7142000000000001" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Nome" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="5" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Leilao" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="6" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,Alura.LeilaoOnline.Core.Leilao)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="8" hits="13" branch="False" />
+                <line number="9" hits="13" branch="False" />
+                <line number="10" hits="13" branch="False" />
+                <line number="11" hits="13" branch="False" />
+                <line number="12" hits="13" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="False" />
+            <line number="6" hits="0" branch="False" />
+            <line number="8" hits="13" branch="False" />
+            <line number="9" hits="13" branch="False" />
+            <line number="10" hits="13" branch="False" />
+            <line number="11" hits="13" branch="False" />
+            <line number="12" hits="13" branch="False" />
+          </lines>
+        </class>
+        <class name="Alura.LeilaoOnline.Core.Lance" filename="C:\Users\flavia.almeida\source\repos\LeilaoOnlineCoverage\Alura.LeilaoOnline.Core\Lance.cs" line-rate="0.9" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Cliente" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="7" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Valor" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="8" hits="28" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Alura.LeilaoOnline.Core.Interessada,System.Double)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="10" hits="29" branch="False" />
+                <line number="11" hits="29" branch="False" />
+                <line number="12" hits="29" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="22" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="18" hits="28" branch="False" />
+                <line number="19" hits="28" branch="False" />
+                <line number="20" hits="28" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="0" branch="False" />
+            <line number="8" hits="28" branch="False" />
+            <line number="10" hits="29" branch="False" />
+            <line number="11" hits="29" branch="False" />
+            <line number="12" hits="29" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="22" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="18" hits="28" branch="False" />
+            <line number="19" hits="28" branch="False" />
+            <line number="20" hits="28" branch="False" />
+          </lines>
+        </class>
+        <class name="Alura.LeilaoOnline.Core.Leilao" filename="C:\Users\flavia.almeida\source\repos\LeilaoOnlineCoverage\Alura.LeilaoOnline.Core\Leilao.cs" line-rate="0.9687" branch-rate="0.8332999999999999" complexity="12">
+          <methods>
+            <method name="get_Lances" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="20" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Peca" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="21" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Ganhador" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="22" hits="13" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Estado" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="23" hits="55" branch="False" />
+              </lines>
+            </method>
+            <method name="NovoLanceAceito" signature="(Alura.LeilaoOnline.Core.Interessada,System.Double)" line-rate="1" branch-rate="0.5">
+              <lines>
+                <line number="36" hits="21" branch="False" />
+                <line number="37" hits="21" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="21" branch="False" />
+                <line number="39" hits="21" branch="False" />
+              </lines>
+            </method>
+            <method name="RecebeLance" signature="(Alura.LeilaoOnline.Core.Interessada,System.Double)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="43" hits="21" branch="False" />
+                <line number="44" hits="21" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="11" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="45" hits="20" branch="False" />
+                <line number="46" hits="20" branch="False" />
+                <line number="47" hits="20" branch="False" />
+                <line number="48" hits="20" branch="False" />
+                <line number="50" hits="21" branch="False" />
+              </lines>
+            </method>
+            <method name="IniciaPregao" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="53" hits="8" branch="False" />
+                <line number="54" hits="8" branch="False" />
+                <line number="55" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="TerminaPregao" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="58" hits="9" branch="False" />
+                <line number="59" hits="9" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="60" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
+                <line number="64" hits="8" branch="False" />
+                <line number="65" hits="8" branch="False" />
+                <line number="67" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,Alura.LeilaoOnline.Core.IModalidadeAvaliacao)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="26" hits="9" branch="False" />
+                <line number="27" hits="9" branch="False" />
+                <line number="28" hits="9" branch="False" />
+                <line number="29" hits="9" branch="False" />
+                <line number="30" hits="9" branch="False" />
+                <line number="31" hits="9" branch="False" />
+                <line number="32" hits="9" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="11" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="13" branch="False" />
+            <line number="23" hits="55" branch="False" />
+            <line number="36" hits="21" branch="False" />
+            <line number="37" hits="21" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="38" hits="21" branch="False" />
+            <line number="39" hits="21" branch="False" />
+            <line number="43" hits="21" branch="False" />
+            <line number="44" hits="21" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="11" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="45" hits="20" branch="False" />
+            <line number="46" hits="20" branch="False" />
+            <line number="47" hits="20" branch="False" />
+            <line number="48" hits="20" branch="False" />
+            <line number="50" hits="21" branch="False" />
+            <line number="53" hits="8" branch="False" />
+            <line number="54" hits="8" branch="False" />
+            <line number="55" hits="8" branch="False" />
+            <line number="58" hits="9" branch="False" />
+            <line number="59" hits="9" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="15" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="60" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="64" hits="8" branch="False" />
+            <line number="65" hits="8" branch="False" />
+            <line number="67" hits="8" branch="False" />
+            <line number="26" hits="9" branch="False" />
+            <line number="27" hits="9" branch="False" />
+            <line number="28" hits="9" branch="False" />
+            <line number="29" hits="9" branch="False" />
+            <line number="30" hits="9" branch="False" />
+            <line number="31" hits="9" branch="False" />
+            <line number="32" hits="9" branch="False" />
+          </lines>
+        </class>
+        <class name="Alura.LeilaoOnline.Core.MaiorOferta" filename="C:\Users\flavia.almeida\source\repos\LeilaoOnlineCoverage\Alura.LeilaoOnline.Core\MaiorOferta.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Avalia" signature="(Alura.LeilaoOnline.Core.Leilao)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="8" hits="7" branch="False" />
+                <line number="9" hits="7" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="33" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="10" hits="7" branch="False" />
+                <line number="11" hits="24" branch="False" />
+                <line number="12" hits="7" branch="False" />
+                <line number="13" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="7" branch="False" />
+            <line number="9" hits="7" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="33" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="10" hits="7" branch="False" />
+            <line number="11" hits="24" branch="False" />
+            <line number="12" hits="7" branch="False" />
+            <line number="13" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="Alura.LeilaoOnline.Core.OfertaSuperiorMaisProxima" filename="C:\Users\flavia.almeida\source\repos\LeilaoOnlineCoverage\Alura.LeilaoOnline.Core\OfertaSuperiorMaisProxima.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_ValorDestino" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="7" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="Avalia" signature="(Alura.LeilaoOnline.Core.Leilao)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="50" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="5" branch="False" />
+                <line number="18" hits="3" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Double)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="4" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="50" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="5" branch="False" />
+            <line number="18" hits="3" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
